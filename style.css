@@ -1,0 +1,202 @@
+body
+{
+    width: 375px;
+}
+
+#main
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+#bggr
+{
+    background: url("res/backgr-res/bg-day.png") no-repeat;
+    width: 375px;
+    height: 300px;
+    position: relative;
+    background-size: cover;  
+}
+
+#content
+{
+    background: #ffffff;
+    width: 375px;
+    height: 531px;
+    position: absolute;
+    left: 0px;
+    top: 279px;
+
+    border-top-left-radius: 21px;
+    border-top-right-radius: 21px;
+
+box-shadow: 0px -16px 40px rgba(0, 0, 0, 0.2);
+    
+    
+}
+
+#day-date-hours
+{
+height: 17px;
+width: 179px;
+margin-left: 20px;
+/*buraya 18 değerinde bir margin eklenmesi gerekiyor haberimiz olsun*/
+
+float: left;
+
+}
+
+/*p elementi için yazıldı*/
+#date-time-text{
+font-family: Barlow;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center;
+color: #999999;
+}
+
+#Location-section
+{
+   float: left;
+    width: 154px;
+    height: 48px;
+    background: rgba(13, 159, 234, 0.08);
+    border-top-right-radius: 21px;
+    border-bottom-left-radius: 21px;
+    margin-left: 22px;
+   
+}
+
+/*İSTANBUL location bilgi vs. text p tagı için*/
+#location-text
+{
+    position: absolute;
+    float: left;
+    width: 56px;
+    height: 19px;
+
+    margin-top: 15px;
+    margin-bottom: 14px;
+    margin-left: 24px;
+    margin-right: 74px;
+    
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #0DA0EA;
+}
+
+#location-icon
+{
+width: 8.5x;
+height: 12px;
+display: flex;  
+
+margin-top: 18px;
+margin-bottom: 18px;
+margin-left: 124px;
+margin-right: 18px;
+}
+
+
+#weather-states-concent
+{
+float: left;
+background: coral;
+display: grid;
+
+grid-template-columns: repeat(3, 95px);
+grid-template-rows: repeat(3, 101px);
+grid-gap: 10px;
+
+margin-top:24px ;
+margin-left: 35px;
+text-align: center;
+}
+
+.weather {
+    background-color: #e68;
+    border-radius: 4px;
+    
+  }
+
+  .sunny
+  {
+    
+  }
+  
+  .sunny-text
+  {
+
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    
+  }
+
+/*
+#Row-1 
+{
+    width: 282px;
+    height: 77px;
+
+    margin-top:24px ;
+    margin-left: 45px;
+    margin-right: 48px;
+    
+    background: purple;
+}
+
+.r1-column
+{
+    background-color: sandybrown;
+}
+
+
+#Row-2
+{
+    width: 282px;
+    height: 77px;
+
+    margin-top:24px ;
+    margin-left: 45px;
+    margin-right: 48px;
+    
+    background: purple;
+}
+
+#Row-3
+{
+    width: 282px;
+    height: 77px;
+
+    margin-top:24px ;
+    margin-left: 45px;
+    margin-right: 48px;
+    
+    background: purple;
+}
+
+#Row-4
+{
+    width: 282px;
+    height: 77px;
+
+    margin-top:24px ;
+    margin-left: 45px;
+    margin-right: 48px;
+    
+    background: purple;
+}*/
